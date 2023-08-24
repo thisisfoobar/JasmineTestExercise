@@ -16,12 +16,3 @@ it("should return a string value", function () {
     calculateMonthlyPayment({ amount: 100000, years: 10, rate: 6 })
   ).toBeInstanceOf(String);
 });
-
-// Can you only run a test on a function that takes in values?
-// it("should set initial values", function () {
-//   expect(setupIntialValues()).toBe();
-// });
-
-// it("should return proper values from UI", function () {
-//   expect(getCurrentUIValues()).toBe({amount: 100000, years: 10, rate: 6})
-// });
